@@ -1,3 +1,4 @@
+'use client';
 export * from './lib/announcement-banner';
 export * from './lib/headers/documentation-header';
 export * from './lib/breadcrumbs';
@@ -19,7 +20,6 @@ export * from './lib/tweet';
 export * from './lib/typography';
 export * from './lib/github-star-widget';
 export * from './lib/youtube.component';
-export * from './lib/image-theme';
 export * from './lib/twitter-icon';
 export { resourceMenuItems } from './lib/headers/menu-items';
 export { solutionsMenuItems } from './lib/headers/menu-items';
