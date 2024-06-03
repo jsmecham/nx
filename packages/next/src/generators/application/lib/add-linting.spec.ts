@@ -116,7 +116,7 @@ describe('updateEslint', () => {
 
     expect(tree.read(`${schema.appProjectRoot}/eslint.config.js`, 'utf-8'))
       .toMatchInlineSnapshot(`
-      "const FlatCompat = require("@eslint/eslintrc");
+      "const { FlatCompat } = require("@eslint/eslintrc");
       const js = require("@eslint/js");
       const baseConfig = require("../eslint.config.js");
 

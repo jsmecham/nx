@@ -291,7 +291,7 @@ export function replaceOverridesInLintConfig(
     content = removeOverridesFromLintConfig(content);
     overrides.forEach((override) => {
       const flatOverride = generateFlatOverride(override);
-      addBlockToFlatConfigExport(content, flatOverride);
+      content = addBlockToFlatConfigExport(content, flatOverride);
     });
 
     tree.write(fileName, content);
